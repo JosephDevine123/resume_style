@@ -1,0 +1,137 @@
+body { 
+font-family: sans-serif; 
+background-color: #fff9d0;  
+}
+
+#container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: .25fr .25fr .25fr .25fr 1.5fr .25fr;
+                grid-template-areas: 
+                "contact academics"
+                "skills certi honors"
+                "courses work study"
+                "leadership activities";
+            }
+
+  #photo img { width: 70%; 
+              
+              }
+
+            header { grid-area: photo;
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              grid-template-rows: 1fr;
+              grid-template-areas: "pic contact";
+            }
+            #contact { grid-area: contact;}
+            #academics { grid-area: academics;}
+            #skills { grid-area: skills;}
+            #certi{ grid-area:certi;}
+            #honors { grid-area: honors;}
+            #courses { grid-area: courses;}
+            #work {grid-area: work;}
+            #study { grid-area: study;}
+            #leadership {grid-area:leadership;}
+            #activites { grid-area: activites;}
+
+
+            #contact, #academics { 
+              background-color: #ccc;
+              padding: 9px;
+            }
+
+            #skills, #certi #honor {
+              border-right: 3px solid #ccc;
+              margin-right: 9px;
+              padding: 9px;
+            }
+
+            #leadership #activities {
+              border-right: : 3px solid #ccc;
+              margin-right: 9px;
+              padding: 9px;
+            }
+
+            #courses #work #study {
+            
+              float: left;
+            }
+
+
+h1 {  
+font-family: sans-serif;  
+background-color: pink; 
+text-align: center;   
+font-weight: bold;  
+text-transform: uppercase; 
+width: 75%; 
+margin-top: 9px;
+color: #6b4984; 
+font-size: 2em;
+float: center;
+}
+
+h2 {  
+font-family: sans-serif;   
+color: purple;  
+font-size: 2em;
+float: left;
+}
+
+h3 {
+font-family: sans-serif;
+color: purple;
+}
+
+p  {
+font-family: serif; 
+color: #616771;
+text-align: left;  
+}
+ 
+ul {
+color: #616771;
+}
+
+img.displayed {
+	width: 15%;
+	border-radius: 27%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 27%;
+}
+
+* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
